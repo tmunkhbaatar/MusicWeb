@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бүтээгдэхүүн дэлгэрэнгүй - Хөгжмийн Зэмсэг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Хөгжмийн Зэмсэг</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Нүүр</a></li>
+                <li><a href="products.html">Бүтээгдэхүүн</a></li>
+                <li><a href="lessons.html">Хичээл</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="contact.html">Холбоо барих</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="cart.html"><img src="icons/cart.png" alt="Сагс"></a>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <div class="product-images">
+                <div class="main-image">
+                    <img src="products/guitar1-large.jpg" alt="Yamaha C40 Гитар">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="products/guitar1-thumb1.jpg" alt="Yamaha C40 Гитар 1">
+                    <img src="products/guitar1-thumb2.jpg" alt="Yamaha C40 Гитар 2">
+                    <img src="products/guitar1-thumb3.jpg" alt="Yamaha C40 Гитар 3">
+                </div>
+            </div>
+            <div class="product-info">
+                <h1>Yamaha C40 Гитар</h1>
+                <p class="product-code">Бүтээгдэхүүний код: YAMAHA-C40</p>
+                <p class="price">1,200,000₮</p>
+                <div class="availability">
+                    <span class="in-stock">Бэлэн байгаа</span>
+                </div>
+                <div class="quantity-selector">
+                    <label for="quantity">Тоо ширхэг:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <button class="add-to-cart">Сагсанд нэмэх</button>
+                <button class="buy-now">Шууд худалдаж авах</button>
+                
+                <div class="product-description">
+                    <h3>Тодорхойлолт</h3>
+                    <p>Yamaha C40 нь анхлан суралцагчдад зориулсан сонгодог гитар юм. Энэхүү гитар нь чанартай давирхай модоор хийгдсэн бөгөөд тод, тодорхой дуугаралттай. Хүүхдүүд болон том хүмүүсийн хувьд ч тохиромжтой.</p>
+                    <ul>
+                        <li>Давирхай: Spruce</li>
+                        <li>Хажуу ба арын хэсэг: Meranti</li>
+                        <li>Хүзүү: Nato</li>
+                        <li>Товчлуур: Rosewood</li>
+                        <li>Хэмжээ: 39 инч</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-specs">
+            <h2>Техникийн үзүүлэлт</h2>
+            <table>
+                <tr>
+                    <th>Үзүүлэлт</th>
+                    <th>Утга</th>
+                </tr>
+                <tr>
+                    <td>Брэнд</td>
+                    <td>Yamaha</td>
+                </tr>
+                <tr>
+                    <td>Загвар</td>
+                    <td>C40</td>
+                </tr>
+                <tr>
+                    <td>Төрөл</td>
+                    <td>Сонгодог гитар</td>
+                </tr>
+                <tr>
+                    <td>Өнгө</td>
+                    <td>Байгалийн</td>
+                </tr>
+                <tr>
+                    <td>Жин</td>
+                    <td>2.5 кг</td>
+                </tr>
+                <tr>
+                    <td>Үйлдвэрлэсэн улс</td>
+                    <td>Индонез</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="related-products">
+            <h2>Холбоотой бүтээгдэхүүн</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="products/guitar2.jpg" alt="Fender CD-60S Гитар">
+                    <h3>Fender CD-60S Гитар</h3>
+                    <p class="price">1,500,000₮</p>
+                    <a href="product-detail.html?id=4" class="btn">Дэлгэрэнгүй</a>
+                </div>
+                <div class="product">
+                    <img src="products/guitar3.jpg" alt="Yamaha FG800 Гитар">
+                    <h3>Yamaha FG800 Гитар</h3>
+                    <p class="price">1,800,000₮</p>
+                    <a href="product-detail.html?id=5" class="btn">Дэлгэрэнгүй</a>
+                </div>
+                <div class="product">
+                    <img src="products/guitar-stand.jpg" alt="Гитар тогтоогч">
+                    <h3>Гитар тогтоогч</h3>
+                    <p class="price">150,000₮</p>
+                    <a href="product-detail.html?id=6" class="btn">Дэлгэрэнгүй</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

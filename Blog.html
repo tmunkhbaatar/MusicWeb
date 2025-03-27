@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог - Хөгжмийн Зэмсэг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Хөгжмийн Зэмсэг</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Нүүр</a></li>
+                <li><a href="products.html">Бүтээгдэхүүн</a></li>
+                <li><a href="lessons.html">Хичээл</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="contact.html">Холбоо барих</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-header">
+            <h1>Хөгжмийн Блог</h1>
+            <p>Хөгжмийн тухай сонирхолтой мэдээлэл, зөвлөгөө</p>
+        </section>
+
+        <section class="blog-posts">
+            <h2 class="visually-hidden">Блог нийтлэлүүд</h2>
+            <article class="blog-post">
+                <img src="blog/post1.jpg" alt="Хөгжмийн зэмсэг сонгох">
+                <div class="post-content">
+                    <h3>Хөгжмийн зэмсэг хэрхэн зөв сонгох вэ?</h3>
+                    <p class="meta">2023-10-15 | Нийтэлсэн: Б.Төгөлдөр</p>
+                    <p>Хөгжмийн зэмсэг сонгохдоо анхаарах хэдэн чухал зүйлс...</p>
+                    <a href="blog-post.html?id=1" class="btn">Унших</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="blog/post2.jpg" alt="Гитар тоглох техник">
+                <div class="post-content">
+                    <h3>Гитар тоглох үндсэн техник</h3>
+                    <p class="meta">2023-09-28 | Нийтэлсэн: Ц.Ариунзаяа</p>
+                    <p>Гитар тоглож эхлэгчдэд зориулсан үндсэн техникүүд...</p>
+                    <a href="blog-post.html?id=2" class="btn">Унших</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="blog/post3.jpg" alt="Хүүхдэд хөгжим заах">
+                <div class="post-content">
+                    <h3>Хүүхдэд хөгжим заах арга</h3>
+                    <p class="meta">2023-08-15 | Нийтэлсэн: Д.Болд</p>
+                    <p>Хүүхдэд хөгжим заахад анхаарах зүйлс...</p>
+                    <a href="blog-post.html?id=3" class="btn">Унших</a>
+                </div>
+            </article>
+        </section>
+
+        <nav aria-label="Хуудасны чиглүүлэлт" class="pagination">
+            <h2 class="visually-hidden">Хуудасны чиглүүлэлт</h2>
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </nav>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

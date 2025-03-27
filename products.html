@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бүтээгдэхүүн - Хөгжмийн Зэмсэг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Хөгжмийн Зэмсэг</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Нүүр</a></li>
+                <li><a href="products.html">Бүтээгдэхүүн</a></li>
+                <li><a href="lessons.html">Хичээл</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="contact.html">Холбоо барих</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="cart.html"><img src="icons/cart.png" alt="Сагс"></a>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <h1>Бүтээгдэхүүнүүд</h1>
+            <div class="filter-options">
+                <select id="category-filter">
+                    <option value="all">Бүх ангилал</option>
+                    <option value="guitars">Гитар</option>
+                    <option value="pianos">Төгөлдөр хуур</option>
+                    <option value="drums">Бөмбөр</option>
+                    <option value="accessories">Дагалдах хэрэгсэл</option>
+                </select>
+                <select id="price-filter">
+                    <option value="all">Үнэ</option>
+                    <option value="0-500000">500,000₮ хүртэл</option>
+                    <option value="500000-1000000">500,000-1,000,000₮</option>
+                    <option value="1000000-2000000">1,000,000-2,000,000₮</option>
+                    <option value="2000000+">2,000,000₮ дээш</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="product-list">
+            <div class="product">
+                <img src="products/guitar1.jpg" alt="Yamaha C40 Гитар">
+                <h3>Yamaha C40 Гитар</h3>
+                <p class="price">1,200,000₮</p>
+                <button class="add-to-cart">Сагсанд нэмэх</button>
+                <a href="product-detail.html?id=1" class="btn">Дэлгэрэнгүй</a>
+            </div>
+            <div class="product">
+                <img src="products/piano1.jpg" alt="Casio PX-160">
+                <h3>Casio PX-160 Төгөлдөр хуур</h3>
+                <p class="price">3,500,000₮</p>
+                <button class="add-to-cart">Сагсанд нэмэх</button>
+                <a href="product-detail.html?id=2" class="btn">Дэлгэрэнгүй</a>
+            </div>
+            <div class="product">
+                <img src="products/headphones1.jpg" alt="Audio-Technica ATH-M50x">
+                <h3>Audio-Technica ATH-M50x</h3>
+                <p class="price">850,000₮</p>
+                <button class="add-to-cart">Сагсанд нэмэх</button>
+                <a href="product-detail.html?id=3" class="btn">Дэлгэрэнгүй</a>
+            </div>
+            <!-- More products can be added here -->
+        </section>
+
+        <nav aria-label="Хуудасны чиглүүлэлт" class="pagination">
+            <h2 class="visually-hidden">Хуудасны чиглүүлэлт</h2>
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </nav>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
